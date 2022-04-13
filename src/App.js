@@ -1,20 +1,17 @@
-import React, { useState} from "react"
-import Pokedex from "./components/Pokedex.js";
-import "../public/data.js"
+import React from "react"
+import Pokecard from "./components/Pokecard";
 import './App.css';
 
 function App() {
-
-  const [card, setCard] = useState(card)
-
-  function populatePokedex()
 
 
   return (
     <div className="App">
       <header className="App-header">
-        <Pokedex />
-       
+        <Pokecard  id = {4}
+          name = "Charmander"
+          type = "fire"
+          exp = {62} />
       </header>
     </div>
   );
